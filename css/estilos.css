@@ -15,7 +15,7 @@ body {
 }
 
 .contenedor {
-	width: 90%;
+	width:90%;
 	margin: auto;
 }
 
@@ -27,6 +27,15 @@ header .contenedor {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
 }
 
 header .logotipo {
@@ -52,12 +61,15 @@ header nav a.activo {
 	font-size: 16px;
 	min-height: 40.62em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%),url(../img/portada_angie.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%),url(../img/initial2.jpg); 
+
+
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
 	display: flex;
 	align-items: flex-end;
+	
 }
 
 .pagina-principal .contenedor {
@@ -143,6 +155,23 @@ header nav a.activo {
 	display: flex;
 	align-items: center;
 	position: relative;
+	
+	
+
+}
+.Aspectos-importantes .contenedor-carousel{
+	border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 450ms all;
+  -webkit-transform-origin: center left;
+          transform-origin: center left;
 
 }
 
@@ -160,6 +189,7 @@ header nav a.activo {
 	cursor: pointer;
 	z-index: 500;
 	transition: .2s ease all;
+	
 }
 
 .Aspectos-importantes .contenedor-principal .flecha-izquierda:hover,
@@ -181,6 +211,8 @@ header nav a.activo {
 	padding: 20px 0;
 	overflow: hidden;
 	scroll-behavior: smooth;
+	
+	
 }
 
 .Aspectos-importantes .contenedor-carousel .carousel {
@@ -582,7 +614,7 @@ header nav a.activo {
 }
 
 .fm-video .vjs-big-play-button {
-	background: rgba(0,0,0,.2);
+	background: rgba(0, 0, 0, 0.1);
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -603,6 +635,8 @@ article {
 	padding: 40px;
 	
 }
+
+
 
 
 @media screen and (max-width: 600px) {
