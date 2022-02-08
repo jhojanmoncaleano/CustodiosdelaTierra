@@ -143,3 +143,5 @@ ScrollReveal().reveal(".contact__item", { delay: 450 });
 ScrollReveal().reveal(".footer", { delay: 450 });
 
 
+
+
