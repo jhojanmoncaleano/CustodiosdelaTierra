@@ -53,7 +53,7 @@ header nav a {
 
 header nav a:hover,
 header nav a.activo {
-	color: #FFF;
+	color:#cefe1a ;
 }
 
 /* ---- ----- ----- Pagina principal Principal ----- ----- ----- */
@@ -234,6 +234,16 @@ header nav a.activo {
 .Aspectos-importantes .contenedor-carousel .carousel .equipo img {
 	width: 100%;
 	vertical-align: top;
+	
+	
+	
+    height: 100%;
+    object-fit: cover;
+    
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 25px;
 }
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
@@ -1191,3 +1201,8 @@ footer .contenedor-icono:hover a {
   .footer a:hover {
 	color: #f5f5f5;
   }
+
+
+
+
+  /* carousel */
